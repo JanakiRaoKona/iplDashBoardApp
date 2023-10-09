@@ -1,0 +1,134 @@
+/* Write your CSS here */
+.KXP {
+  background-image: linear-gradient(#a4261d, #1e293b);
+  padding: 10px;
+}
+.KXP-loader {
+  background-image: linear-gradient(#1e293b, #1e293b);
+  padding: 10px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.KKR {
+  background-image: linear-gradient(#5755a7, #1e293b);
+  padding: 10px;
+}
+.KKR-loader {
+  background-image: linear-gradient(#5755a7, #1e293b);
+  padding: 10px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.RCB {
+  background-image: linear-gradient(#d91c1f, #1e293b);
+  padding: 10px;
+}
+.RCB-loader {
+  background-image: linear-gradient(#d91c1f, #1e293b);
+  padding: 10px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.CSK {
+  background-image: linear-gradient(#f7db00, #1e293b);
+  padding: 10px;
+}
+.CSK-loader {
+  background-image: linear-gradient(#f7db00, #1e293b);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.RR {
+  background-image: linear-gradient(#da237b, #1e293b);
+  padding: 10px;
+}
+.RR-loader {
+  background-image: linear-gradient(#da237b, #1e293b);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.MI {
+  background-image: linear-gradient(#13418b, #1e293b);
+  padding: 10px;
+}
+.MI-loader {
+  background-image: linear-gradient(#13418b, #1e293b);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.SH {
+  background-image: linear-gradient(#f26d22, #1e293b);
+  padding: 10px;
+}
+.SH-loader {
+  background-image: linear-gradient(#f26d22, #1e293b);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.DC {
+  background-image: linear-gradient(#5755a7, #1e293b);
+  padding: 10px;
+}
+.DC-loader {
+  background-image: linear-gradient(#5755a7, #1e293b);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.team-banner-image {
+  width: 90vw;
+  height: 120px;
+  padding: 10px;
+}
+.latest-matches {
+  color: #ffffff;
+  font-size: 16px;
+  font-family: 'Bree Serif';
+  font-weight: 500;
+  margin: 20px;
+}
+.ul-list {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style: none; /* Remove default list bullets */
+  padding: 0;
+}
+@media screen and (min-width: 768px) {
+  .team-banner-image {
+    width: 90vw;
+    height: 200px;
+    padding: 10px;
+  }
+}

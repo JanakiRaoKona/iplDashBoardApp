@@ -1,0 +1,49 @@
+/* Write your CSS here */
+.team-image-url {
+  width: 30px;
+}
+.team-name {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 12px;
+  width: 80px;
+  padding: 6px;
+}
+.teams-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1e293b(30, 41, 59, 1);
+  border-style: solid;
+  border-width: 2px;
+  border-color: #475569;
+  border-radius: 10px;
+  cursor: pointer;
+  list-style-type: none;
+}
+@media screen and (max-width: 767px) {
+  .teams-card {
+    padding: 5px;
+    height: 100px;
+    width: 150px;
+    margin: 5px;
+  }
+}
+.nav-link-home-item {
+  text-decoration: none;
+  outline: none;
+}
+@media screen and (min-width: 768px) {
+  .teams-card {
+    padding: 30px;
+    margin: 10px;
+    height: 100px;
+    width: 250px;
+  }
+  .team-image-url {
+    width: 40px;
+  }
+  .team-name {
+    font-size: 18px;
+  }
+}
